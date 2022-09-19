@@ -1,0 +1,39 @@
+    3  sudo ./welcome.sh
+    4  cd paso_2
+    5  ls
+    6  touch instrucciones.txt 
+    7  cat instrucciones.txt 
+    8  cd ..
+    9  cd paso_5
+   10  ls
+   11  head -n2 instrucciones.txt 
+   12  cd ..
+   13  cd paso_10
+   14  ls
+   15  cat instrucciones.txt 
+   16  wget https://www.gnu.org/licenses/gpl-3.0.txt
+   17  ls
+   18  grep freedom gpl-3.0.txt 
+   19  cd ..
+   20  cd paso_8
+   21  ls
+   22  cat instrucciones.txt 
+   23  wget https://www.rcsb.org/fasta/entry/7PND
+   24  ls
+   25  fgrep -o K 7PND | wc -l
+   26  cd ..
+   27  cd paso_24
+   28  cat instrucciones.txt 
+   29  wget https://www.alphafold.ebi.ac.uk/entry/F4HVG8
+   30  ls
+   33  du -sh F4HVG8
+   34  cd ..
+   36  cd paso_7
+   37  cat instrucciones.txt 
+   38  grep -o 'Homo sapiens' *.fasta | wc -l
+   46  cd ..
+   47  cd paso_9
+   48  cat instrucciones.txt 
+   49  cut -f2 -d ',' *.txt 
+   51
+   62  history > comandos-bashaton.txt
