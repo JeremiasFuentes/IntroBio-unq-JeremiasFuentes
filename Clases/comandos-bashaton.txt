@@ -37,3 +37,5 @@
    49  cut -f2 -d ',' *.txt 
    51
    62  history > comandos-bashaton.txt
+
+la frase secreta es: 🧬💪 🤗
